@@ -1,0 +1,13 @@
+{
+  "name": "two-tier-app",
+  "version": "1.0.0",
+  "description": "Sample two-tier application using Node.js and HTML",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+
