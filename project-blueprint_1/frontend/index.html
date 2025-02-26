@@ -1,0 +1,23 @@
+root@ip-172-31-26-87:/home/ubuntu/project-blueprint_1/frontend/app# ls
+index.html  script.js  style.css
+root@ip-172-31-26-87:/home/ubuntu/project-blueprint_1/frontend/app# vi index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Docker Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Dockerized Website</h1>
+        <p>This website is running inside a Docker container with Apache.</p>
+        <button onclick="showMessage()">Click Me</button>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
