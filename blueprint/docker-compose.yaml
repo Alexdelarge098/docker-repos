@@ -1,12 +1,7 @@
-version: '3.8'
+version: '3.0'
 services:
-  html:
-    build: 
-      context: ./html
+  app:
+    build:
+      context: ./app
     ports:
       - "8080:80"
-  nodejs:
-    build:
-      context: ./nodejs
-    ports:
-      - "8080:3000" 
